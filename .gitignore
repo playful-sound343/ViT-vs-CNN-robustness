@@ -1,32 +1,5 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-.pytest_cache/
-
-# Environments
-venv/
-.venv/
-env/
-
-# Local/editor files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Large/generated artifacts
-checkpoints/*
-checkpoints_best/*
-!checkpoints/README.md
-!checkpoints_best/README.md
-*.pt
-*.pth
-*.ckpt
-*.onnx
-
-# Expanded datasets
-data/EuroSAT/
-
-# Personal documents
-*.docx
+# Generated SQLite database
+experiments.db
+experiments.db-shm
+experiments.db-wal
+experiments_before_experiment1_removal.db
